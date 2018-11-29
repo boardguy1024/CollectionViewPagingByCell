@@ -14,6 +14,9 @@
 		6C45C17D21AE8F5E00B8FB9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C45C17B21AE8F5E00B8FB9C /* LaunchScreen.storyboard */; };
 		6C45C18821AE8F5F00B8FB9C /* ScrollViewSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C45C18721AE8F5F00B8FB9C /* ScrollViewSampleTests.swift */; };
 		6C45C19321AE8F5F00B8FB9C /* ScrollViewSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C45C19221AE8F5F00B8FB9C /* ScrollViewSampleUITests.swift */; };
+		6C7AE0A521AF8A7F00E78475 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7AE0A321AF8A7F00E78475 /* MyCollectionViewCell.swift */; };
+		6C7AE0A621AF8A7F00E78475 /* MyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C7AE0A421AF8A7F00E78475 /* MyCollectionViewCell.xib */; };
+		6C7AE0A821AFB20B00E78475 /* MyCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7AE0A721AFB20A00E78475 /* MyCollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		6C45C18E21AE8F5F00B8FB9C /* ScrollViewSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollViewSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C45C19221AE8F5F00B8FB9C /* ScrollViewSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewSampleUITests.swift; sourceTree = "<group>"; };
 		6C45C19421AE8F5F00B8FB9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C7AE0A321AF8A7F00E78475 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		6C7AE0A421AF8A7F00E78475 /* MyCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCollectionViewCell.xib; sourceTree = "<group>"; };
+		6C7AE0A721AFB20A00E78475 /* MyCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,9 @@
 				6C45C17221AE8F5D00B8FB9C /* AppDelegate.swift */,
 				6C45C17421AE8F5D00B8FB9C /* ViewController.swift */,
 				6C45C17621AE8F5D00B8FB9C /* Main.storyboard */,
+				6C7AE0A721AFB20A00E78475 /* MyCollectionViewController.swift */,
+				6C7AE0A321AF8A7F00E78475 /* MyCollectionViewCell.swift */,
+				6C7AE0A421AF8A7F00E78475 /* MyCollectionViewCell.xib */,
 				6C45C17921AE8F5E00B8FB9C /* Assets.xcassets */,
 				6C45C17B21AE8F5E00B8FB9C /* LaunchScreen.storyboard */,
 				6C45C17E21AE8F5E00B8FB9C /* Info.plist */,
@@ -231,6 +240,7 @@
 			files = (
 				6C45C17D21AE8F5E00B8FB9C /* LaunchScreen.storyboard in Resources */,
 				6C45C17A21AE8F5E00B8FB9C /* Assets.xcassets in Resources */,
+				6C7AE0A621AF8A7F00E78475 /* MyCollectionViewCell.xib in Resources */,
 				6C45C17821AE8F5D00B8FB9C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,8 +266,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C7AE0A821AFB20B00E78475 /* MyCollectionViewController.swift in Sources */,
 				6C45C17521AE8F5D00B8FB9C /* ViewController.swift in Sources */,
 				6C45C17321AE8F5D00B8FB9C /* AppDelegate.swift in Sources */,
+				6C7AE0A521AF8A7F00E78475 /* MyCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
